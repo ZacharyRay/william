@@ -1,0 +1,17 @@
+html{
+    overflow-x: hidden; 
+    @include min-screen(800px){
+        overflow-y: hidden;
+    }
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: black;
+}
+
+.content-grid{
+    margin-bottom: -4em;
+}
